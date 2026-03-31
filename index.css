@@ -14,7 +14,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   background: #f3f3f3;
   color: #6b7280;
-  font-size: 14px; /* 🔥 reduced */
+  font-size: 12px; /* 🔥 reduced */
 }
 
 a {
@@ -84,7 +84,7 @@ a {
 /* Hero */
 .main-title {
   font-family: 'Oswald', sans-serif;
-  font-size: 42px; /* 🔥 reduced */
+  font-size: 32px; /* 🔥 reduced */
   color: #313842;
   margin-bottom: 15px;
 }
@@ -94,12 +94,12 @@ a {
 }
 
 .sub-text {
-  font-size: 14px; /* reduced */
+  font-size: 13px; /* reduced */
   margin-bottom: 25px;
 }
 
 .about-text p {
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.6;
   margin-bottom: 15px;
 }
@@ -125,7 +125,7 @@ a {
 /* Section Titles */
 .section-title {
   font-family: 'Oswald', sans-serif;
-  font-size: 28px; /* 🔥 reduced */
+  font-size: 24px; /* 🔥 reduced */
   margin-bottom: 30px;
 }
 
