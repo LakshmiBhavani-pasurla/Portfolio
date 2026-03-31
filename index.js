@@ -1,19 +1,8 @@
-//index.js
+const navLinks = document.querySelectorAll(".nav-link");
 
-const hamburger = document.getElementById('hamburger'); 
-const menu = document.querySelector('.menu'); 
-
-hamburger.addEventListener('click', function () { 
-    const hamIcon = this.querySelector('.hamburger-icon'); 
-    const crossIcon = this.querySelector('.cross-icon'); 
-    if (hamIcon.style.display === "none") { 
-        hamIcon.style.display = "inline-block"
-        menu.style.display = "none"
-        crossIcon.style.display = "none"
-    } 
-    else { 
-        crossIcon.style.display = "inline-block"
-        hamIcon.style.display = "none"
-        menu.style.display = "block"
-    } 
+navLinks.forEach(link => {
+  link.addEventListener("click", function () {
+    navLinks.forEach(item => item.classList.remove("active"));
+    this.classList.add("active");
+  });
 });
